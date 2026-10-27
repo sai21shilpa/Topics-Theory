@@ -1,0 +1,8 @@
+| | ArrayList | LinkedList |
+|---|---|---|
+| Internal structure | Dynamic array | Linked nodes |
+| `get(index)` | Fast | Slow |
+| Add at end | Fast/amortized | Fast |
+| Insert/remove middle | Usually better | Can be good once position is reached |
+| Memory | Lower | Higher due to node links |
+| Typical choice | ✅ Most common | Specific use cases |
