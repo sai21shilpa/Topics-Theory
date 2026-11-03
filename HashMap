@@ -1,0 +1,7 @@
+• Bucket Array: The foundation of a HashMap is a plain array of Node objects called table, where each index represents a bucket. The default initial capacity is 16, and the array size is always a power of two.
+• Node Object: Each entry is stored as a Node containing four components:
+	• hash: The precomputed hash code of the key.
+	• key: The key object.
+	• value: The associated value.
+	• next: A reference to the next Node in case of a collision (forms a linked list).
+• Null Handling: A HashMap permits one null key and multiple null values.
