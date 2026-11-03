@@ -1,0 +1,4 @@
+
+Resizing and Load Factor
+
+• Threshold: The default load factor is 0.75. The resize threshold is c
