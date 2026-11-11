@@ -1,0 +1,5 @@
+In Java, the Map Interface is part of the java.util package and represents a collection of key-value pairs, where Keys should be unique, but values can be duplicated.
+
+It provides efficient retrieval, insertion, and deletion operations based on keys.
+HashMap and LinkedHashMap allow one null key, and TreeMap does NOT allow null keys (if natural ordering is used).
+Use ConcurrentHashMap for thread-safe operations, or Collections.synchronizedMap() to make an existing map synchronized.
