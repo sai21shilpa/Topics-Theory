@@ -1,0 +1,19 @@
+1. What is Kafka and why do we use it?
+Interview answer:
+"Apache Kafka is a distributed event-streaming platform used to reliably publish, store, and consume large volumes of events. In a microservices architecture, Kafka helps decouple services so producers don't need to directly call consumers. It provides scalability, fault tolerance, and the ability to process events asynchronously."
+
+Example:
+Payment Service
+      |
+      | PaymentCreated
+      ↓
+   Kafka Topic
+      |
+ ┌────┼─────────┐
+ ↓    ↓         ↓
+Fraud  Notification  Audit
+Service Service      Service
+
+Instead of Payment Service calling all three services directly, it publishes one event to Kafka.
+Remember:
+Kafka = Producer → Topic → Consumer
