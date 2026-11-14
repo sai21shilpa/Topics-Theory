@@ -1,0 +1,11 @@
+2. What is a Kafka Broker?
+"A broker is a Kafka server that stores and serves messages. A Kafka cluster consists of multiple brokers. Topics and their partitions are distributed across these brokers to provide scalability and fault tolerance."
+
+Example:
+Kafka Cluster
+
+Broker 1 → Partition 0
+Broker 2 → Partition 1
+Broker 3 → Partition 2
+
+More brokers → Kafka can distribute the workload.
